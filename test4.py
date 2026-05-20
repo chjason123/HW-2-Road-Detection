@@ -62,7 +62,7 @@ def display(img, cmap=None):
     plt.show()
 
 if __name__ == '__main__':
-    img = cv2.imread('road_2.png')
+    img = cv2.imread('road_1.jpg')
     img = cv2.resize(img, (640, 480), interpolation=cv2.INTER_AREA)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     
