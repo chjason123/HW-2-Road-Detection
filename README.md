@@ -105,8 +105,12 @@ flowchart TD
 2.  **自我學習起始特徵**: 透過分析影像底部（通常是車頭前方最近的地面）來動態決定道路特徵，而非使用固定數值。
 3.  **區域生長**: BFS 確保了偵測到的道路是連續的，有效過濾掉背景中具有相似紋理但非道路的雜訊。
 ---
-### 目前結果
+### 舊版結果
 <img width="800" height="600" alt="road_1out" src="https://github.com/user-attachments/assets/819fac12-0a42-4ca9-ad5e-2abcf3340976" />
 
 <img width="800" height="600" alt="road_2_out" src="https://github.com/user-attachments/assets/42f3b5b4-a0e4-453a-8af1-7da24fa72460" />
+
+### 新版結果
+<img width="640" height="480" alt="road_1_out" src="https://github.com/user-attachments/assets/d69800b3-1a90-48b8-9e80-857235fa8f05" />
+<img width="640" height="480" alt="road_2_out" src="https://github.com/user-attachments/assets/9bcc9fb1-c2bc-4c1e-8ca2-4d713686aab6" />
 
